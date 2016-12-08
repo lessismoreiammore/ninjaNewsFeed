@@ -74,7 +74,7 @@ include 'functions.php'; //Collects functions.
     <div class="addedPosts">
     <p>
       <?php
-    echo '<span style="font-weight: bold; color: white">' . "Add a title and a comment in order to post." . '</span>';
+    echo '<span style="font-weight: bold; color: #F44336">' . "Add a title and a comment in order to post." . '</span>';
     ?>
     </p>
     </div>
@@ -95,7 +95,7 @@ include 'functions.php'; //Collects functions.
       }
     }
   else {
-    echo '<span style="font-weight: bold; color: white">' . "Wrong Username or Password, try again" . '</span>';
+    echo '<span style="font-weight: bold; color: #F44336">' . "Wrong Username or Password, try again" . '</span>';
     }
   }
 ?>
