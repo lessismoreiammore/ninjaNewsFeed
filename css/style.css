@@ -1,0 +1,67 @@
+body {
+    background: #eee;
+}
+
+.wrapper {
+    width: 650px;
+    text-align: center;
+}
+
+h1{
+    color:#F44336;
+    padding-bottom: 15px;
+}
+
+
+.shadow {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+}
+
+.
+.form textarea {
+    border: 1px solid #ddd;
+    height: 40px;
+    min-height: 40px;
+    resize: none;
+    line-height: 28px;
+    transition: height .3s ease-in-out;
+}
+
+.form textarea:hover {
+    box-shadow: none;
+    border: 1px solid #F44336;
+}
+
+.form textarea:focus {
+    border: 1px solid #ddd;
+    height: 150px;
+    line-height: 21px;
+    border: 1px solid #F44336;
+}
+
+.form input[type="text"], .form input[type="password"] {
+    font-size: 1em;
+}
+
+.form input[type="text"]:focus,form input[type="text"]:hover, .form input[type="password"]:focus,form input[type="password"]:hover {
+    border: 1px solid #F44336;
+}
+
+.form .btn {
+    margin-top: 2px;
+}
+
+.item {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.item .label {
+    margin-top: -1px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
